@@ -1,6 +1,9 @@
 body {
-  background-color: #343638 !important;
+  background-image: radial-gradient(circle, #135fce, #134f82, #29435c, #343638);
+  background-attachment: fixed;
 }
+
+/* https://mycolor.space/gradient?ori=circle&hex=%23135FCE&hex2=%23343638&sub=1  for gradients*/
 
 .ironlog {
   height: 300px;
@@ -12,12 +15,17 @@ body {
 }
 
 .h1 {
-  color: white !important;
+  background-image: linear-gradient(to bottom, #135fce, #343638);
+  color: transparent !important;
+  -webkit-background-clip: text;
+  background-clip: text;
   text-align: center;
   margin-top: -20px !important;
   font-family: 'Skranji', cursive !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: white;
+
+
 }
 
 .ceo {
@@ -58,9 +66,12 @@ footer {
 }
 
 .jumbotron {
-  background-color: #4d5054 !important;
+  
   border-style: solid;
-  border-color: #4d5054;
+  border-color: transparent;
+  color: transparent !important;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 h4 {
@@ -127,19 +138,15 @@ h4 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
-
-
   /* Style the tab */
-.tab {
+  .tab {
     overflow: hidden;
     border: 1px solid #222222;
     background-color: #222222;
     margin-top: 51px;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
+  }
+  /* Style the buttons inside the tab */
+  .tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -149,27 +156,67 @@ h4 {
     transition: 0.3s;
     font-size: 17px;
     color: #9D9D9D;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-
-    color: white;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
+  }
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #135fce;
+  }
+  /* Create an active/current tablink class */
+  .tab button.active {
     background-color: black;
     color: white;
-}
-
-/* Style the tab content */
-.tabcontent {
+  }
+  /* Style the tab content */
+  .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid white;
     border-top: none;
-}
-.row{
-  background-image: url(design.jpg);
+  }
+  /* Footer Placement*/
+  footer {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .left {
+    text-align: left;
+  }
+  /* Use for Social Media Icons */
+  .fa {
+    padding: 7px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+
+  }
+  #ncenter{
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+.aceo{
+  margin-top: 50px;
+
 }
