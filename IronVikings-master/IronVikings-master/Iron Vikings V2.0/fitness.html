@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title>Iron Viking--"Live Unafraid, Die Strong"</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/gif" href="logo.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Store</a></li>
+          <li><a href="aboutme.html">Meet the Owner</a></li>
+          <li class="active"><a href="fitness.html">Fitness & Nutrition</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><a href="subscribe.html"><span class="glyphicon glyphicon-user" ></span> Subscribe</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Legs')">Legs</button>
+    <button class="tablinks" onclick="openCity(event, 'Arms')">Arms</button>
+    <button class="tablinks" onclick="openCity(event, 'Abs')">Abs</button>
+  </div>
+
+  <div id="Legs" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <h3>Legs</h3>
+    <ul style="text-align: center; list-style-type:none;">
+      <li>Barbell Squat. 4 sets, 4-6 reps.</li>
+    <li>Dumbbell Lunges. 4 sets, 12 reps each leg.</li>
+      <li>Leg Press. 3 sets, 12-15 reps.</li>
+        <li>Lying Leg Curls. 3 sets, 12 reps.</li>
+          <li>Leg Extensions. 3 sets, 20 reps.</li>
+            <li>Standing Calf Raises. 4 sets, 12 reps.</li>
+          </ul>
+            <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
+  </div>
+
+  <div id="Arms" class="tabcontent">
+    <h3>Legs</h3>
+    <p>The bigger your arms the more the better ~Larry the Lobster.
+    </p>
+    <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
+  </div>
+
+  <div id="Abs" class="tabcontent">
+    <h3>Abs</h3>
+    <p>Get a stomach made into Iron, we have the technology.</p>
+    <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
+  </div-->
+
+  <div class="container">
+
+    <footer>
+      <div class="left"> Copyright &copy; 2018 Iron Viking All Rights Reserved.
+
+        <a href="https://www.facebook.com/ironvikingapparel/" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><span  class="fa fa-facebook"></span></a>
+        <a href="#" type="button" class="btn-floating btn-sm btn-sc"><span class="fa fa-snapchat-ghost"></span></a>
+        <a type="button" class="btn-floating btn-sm btn-ig"><span class="fa fa-instagram"></span></a>
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+</body>
+
+</html>
