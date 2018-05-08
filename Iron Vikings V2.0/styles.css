@@ -78,6 +78,14 @@ footer {
   border-color: transparent;
 }
 
+.jumbotron-newest{
+  border-style: solid;
+  border-color: transparent;
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 h4 {
   color: white !important;
   text-align: center;
