@@ -24,8 +24,6 @@ body {
   font-family: 'Skranji', cursive !important;
   -webkit-text-stroke-width: .3px;
   -webkit-text-stroke-color: white;
-
-
 }
 
 .ceo {
@@ -65,13 +63,19 @@ footer {
   margin-top: 80px;
 }
 
-.jumbotron {
-
+.jumbotron-new {
   border-style: solid;
   border-color: transparent;
   color: transparent !important;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+.jumbotron-newer {
+  color: white !important;
+  border-style: solid !important;
+  background: rgba(34, 34, 34, 0.5) !important;
+  border-color: transparent;
 }
 
 h4 {
@@ -85,6 +89,10 @@ h4 {
 
 .navbar-nav {
   font-family: 'Merienda', cursive;
+}
+
+.subs {
+  color: white;
 }
 
 /*
@@ -179,9 +187,8 @@ h4 {
     position: relative;
     margin-top: 50px;
   }
-
   .left {
-    text-align: left;
+    text-align: center;
   }
   /* Use for Social Media Icons */
   .fa {
@@ -190,7 +197,6 @@ h4 {
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
-
   }
   .fa:hover {
     opacity: 0.7;
@@ -210,35 +216,37 @@ h4 {
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-
   }
-  #ncenter{
-
+  #ncenter {
     margin-left: auto;
     margin-right: auto;
   }
-.aceo{
-  margin-top: 50px;
-
-}
-
-.reg{
-  color: white !important;
-}
-
-.producthead{
-  text-decoration-line: underline !important;
-}
-
-.productIMG{
-  width: 200px;
-  height: auto;
-}
-#macro{
-  height: 350px !important;
-  width: auto !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
+  .aceo {
+    margin-top: 50px;
+  }
+  .reg {
+    color: white !important;
+  }
+  .producthead {
+    text-decoration-line: underline !important;
+  }
+  .productIMG {
+    width: 200px;
+    height: auto;
+  }
+  #macro {
+    height: 400px !important;
+    width: auto !important;
+    display: block;
+    margin-right: auto;
+  }
+  .tylogo {
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  h3 {
+    text-align: center;
+  }

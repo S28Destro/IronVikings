@@ -33,9 +33,7 @@
           <li class="active"><a href="fitness.html">Fitness & Nutrition</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://www.facebook.com/ironvikingapparel/"  target="_blank" type="button" class="btn-floating btn-sm btn-fb"><span class="fa fa-facebook"></span></a></li>
-          <li> <a href="#"type="button" class="btn-floating btn-sm btn-sc"><span class="fa fa-snapchat-ghost"></span></a></li>
-          <li><a type="button" class="btn-floating btn-sm btn-ig"><span class="fa fa-instagram"></span></a> </li>
+
           <li><a href="subscribe.html"><span class="glyphicon glyphicon-user" ></span> Subscribe</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
 
@@ -43,17 +41,24 @@
       </div>
     </div>
   </nav>
-  <div class="tab">
+  <!--div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Legs')">Legs</button>
     <button class="tablinks" onclick="openCity(event, 'Arms')">Arms</button>
     <button class="tablinks" onclick="openCity(event, 'Abs')">Abs</button>
   </div>
 
   <div id="Legs" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
     <h3>Legs</h3>
-    <p> Don't be like Larry the Lobster, support your torso and arms with your legs.
-    </p>
-    <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
+    <ul style="text-align: center; list-style-type:none;">
+      <li>Barbell Squat. 4 sets, 4-6 reps.</li>
+    <li>Dumbbell Lunges. 4 sets, 12 reps each leg.</li>
+      <li>Leg Press. 3 sets, 12-15 reps.</li>
+        <li>Lying Leg Curls. 3 sets, 12 reps.</li>
+          <li>Leg Extensions. 3 sets, 20 reps.</li>
+            <li>Standing Calf Raises. 4 sets, 12 reps.</li>
+          </ul>
+            <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
   </div>
 
   <div id="Arms" class="tabcontent">
@@ -67,20 +72,27 @@
     <h3>Abs</h3>
     <p>Get a stomach made into Iron, we have the technology.</p>
     <br/> <a class="btn btn-large btn-info" href="fitness.html"><i class="fa fa-arrow-left">Back to Fitness & Nutrition</i></a>
-  </div>
+  </div-->
 
   <div class="container">
-    <img src="Macroguide.jpg" class="rounded float-left" alt="Macro" id="macro">
-    <img src="Simplebodyguide.jpg" class="rounded float-right" alt="Guide" id="macro">
+
+    <footer>
+      <div class="left"> Copyright &copy; 2018 Iron Viking All Rights Reserved.
+
+        <a href="https://www.facebook.com/ironvikingapparel/" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><span  class="fa fa-facebook"></span></a>
+        <a href="#" type="button" class="btn-floating btn-sm btn-sc"><span class="fa fa-snapchat-ghost"></span></a>
+        <a type="button" class="btn-floating btn-sm btn-ig"><span class="fa fa-instagram"></span></a>
+
+      </div>
+    </footer>
   </div>
 
 
 
 
 
-  <footer>
-    <div class="left"> Copyright &copy; 2018 Iron Viking All Rights Reserved. </div>
-  </footer>
+
+
   <script>
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
