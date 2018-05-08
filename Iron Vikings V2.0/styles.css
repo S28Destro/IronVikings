@@ -38,10 +38,10 @@ p {
   color: white;
 }
 
-.bio {
+#bio {
   display: flex;
   border-style: solid;
-  border-color: white;
+  border-color: transparent !important;
   border-width: 1px;
 }
 
@@ -55,8 +55,33 @@ footer {
   text-align: center;
 }
 
-.ag {
+@media (max-width: 767px){
+  #bio, .ag{
+    display: none;
+  }
+  .gtav{
+    display:block;
+  }
+
+}
+@media (min-width: 768px) {.gtav{
+  display: none;
+}
+
+}
+
+
+.fied{
+width: 50%;
+height: 50%;
+}
+
+
+
+.ag, .gta4 {
   color: white;
+  text-align: center;
+
 }
 
 .container {
@@ -76,14 +101,6 @@ footer {
   border-style: solid !important;
   background: rgba(34, 34, 34, 0.5) !important;
   border-color: transparent;
-}
-
-.jumbotron-newest{
-  border-style: solid;
-  border-color: transparent;
-  display: block;
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 h4 {
